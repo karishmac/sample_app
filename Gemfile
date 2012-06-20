@@ -25,8 +25,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'ffi'
+
 #group :test do
-#	gem 'capybara', '1.1.2'
+#	gem 'capybara'
 #end
 
 gem 'jquery-rails'
@@ -46,3 +48,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+#group :production do
+#	gem 'pg'
+#end
